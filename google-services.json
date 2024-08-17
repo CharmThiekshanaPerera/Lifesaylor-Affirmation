@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "328782139352",
+    "project_id": "lifesaylor-affirmation",
+    "storage_bucket": "lifesaylor-affirmation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328782139352:android:23ddfa4b02f36f314cacad",
+        "android_client_info": {
+          "package_name": "life.saylor.affirmation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYzGnJwmcbVZLjePTW_c3cfw-AsYxlH0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

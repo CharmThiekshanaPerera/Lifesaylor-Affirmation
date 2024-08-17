@@ -1,0 +1,62 @@
+{
+  "expo": {
+    "name": "Lifesaylor Affirmation",
+    "slug": "lifesaylor-affirmation-app",
+    "description": "React Native Recipes App Demo. Download source code for free at https://www.instamobile.io . You can also check out the Swift version at https://www.iosapptemplates.com and the Kotlin version at https://www.instakotlin.com .",
+    "privacy": "public",
+    "version": "1.1.6",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "notification": {
+      "icon": "./assets/notification.png",
+      "color": "#fff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/e36a9e5d-e10e-4ccf-924a-aa60b5668c3d"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "lifesaylor-affirmation"
+    },
+    "android": {
+      "versionCode": 16,
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "life.saylor.affirmation",
+      "permissions": [
+        "NOTIFICATIONS",
+        "USER_FACING_NOTIFICATIONS",
+        "BACKGROUND_FETCH",
+        "RECEIVE_BOOT_COMPLETED",
+        "WAKE_LOCK"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/splash.png"
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e36a9e5d-e10e-4ccf-924a-aa60b5668c3d"
+      }
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
